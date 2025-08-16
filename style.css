@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #1A1A2E, #162447); /* azul escuro / roxo escuro */
+    background: linear-gradient(135deg, #2C1B1B, #1B1A18); /* fundo escuro mágico */
     color: #FFF;
     display: flex;
     justify-content: center;
@@ -10,18 +10,18 @@ body {
 }
 
 .caixa-principal {
-    background-color: #222245; /* caixa em azul escuro */
+    background-color: #3B2F2F; /* tom de pergaminho queimado */
     padding: 25px;
     width: 90%;
     max-width: 600px;
     text-align: center;
     border-radius: 12px;
-    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(218, 165, 32, 0.5); /* dourado */
     transition: box-shadow 0.3s;
 }
 
 h1 {
-    color: #FF4C4C;
+    color: #C62828; /* vermelho vibrante legível */
     margin-bottom: 10px;
 }
 
@@ -29,11 +29,11 @@ h1 {
     margin-top: 5px;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #FFA8A8;
+    color: #FFD700; /* dourado */
 }
 
 button {
-    background-color: #330000;
+    background-color: #4B2E2E; /* marrom escuro */
     color: #FFF;
     border: none;
     border-radius: 10px;
@@ -46,19 +46,19 @@ button {
 }
 
 button:hover {
-    background-color: #660000;
+    background-color: #B8860B; /* âmbar/dourado queimado */
     transform: scale(1.05);
 }
 
 .correto {
-    background-color: #2ecc71 !important;
+    background-color: #1A936F !important; /* verde Sonserina */
     color: #fff;
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
 
 .errado {
-    background-color: #e74c3c !important;
+    background-color: #D32F2F !important; /* vermelho mais leve e visível */
     color: #fff;
     transform: scale(1.1);
     transition: all 0.3s ease;
@@ -87,6 +87,7 @@ button:hover {
     display: none;
     margin-top: 20px;
     font-size: 18px;
+    color: #F5DEB3; /* trigo (inspirado em pergaminho) */
 }
 
 .caixa-resultado.mostrar {
